@@ -1,0 +1,122 @@
+/*responsive media queries*/
+
+/*burger nav and fullscreen nav*/
+ @media screen and (max-width:1020px){
+   nav.normal{
+     display: none;
+   }
+
+   .burger-container{
+     display: block;
+     float: right;
+   }
+   .fullnav.open{
+     display: block;
+   }
+
+ }
+
+ @@media screen and (width:1020px){
+   .fullnav{
+     height: 0%;
+   }
+ }
+
+@media screen and (max-width: 1020px), screen and (max-width:760px){
+  .title{
+    font-size: 50px;
+  }
+  .subtitle{
+    font-size: 18px;
+  }
+}
+
+/* feature */
+@media screen and (max-width: 1220px){
+  .feature-subtitle{
+    margin: 0 8px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 780px){
+  .feature-img{
+    position: relative;
+    left: 45%;
+  }
+}
+
+/* team section */
+@media screen and (max-width: 980px){
+  .team-members{
+    padding-bottom: 20px;
+  }
+
+  .team-name, .team-position, .team-desc{
+    text-align: center;
+  }
+
+  .team-desc{
+    padding: 15px 50px;
+  }
+
+  .social-icons{
+    padding: 10px;
+  }
+
+  .social-icons span{
+    position: relative;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .social-icons span{
+    position: relative;
+    left: 35%;
+  }
+}
+
+/*carousel*/
+@media screen and (max-width: 1280px){
+  .test-quote .q{
+    padding: 0 10rem 1rem 10rem;
+    padding-top: 10%;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .test-quote .q{
+    padding: 0 10rem 0rem 10rem;
+    padding-top: 6%;
+    font-size: 25px;
+  }
+}
+
+/*downloads*/
+@media screen and (max-width: 1080px){
+  .d1{
+    font-size: 30px;
+  }
+}
+
+
+/*footer*/
+@media screen and (max-width: 1200px){
+  .footer-3rd{
+    padding: 0 200px;
+  }
+}
+
+@media screen and (max-width: 980px){
+  .footer-3rd{
+    padding: 0 150px;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .footer-3rd{
+    padding: 0;
+  }
+}
